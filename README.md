@@ -68,7 +68,7 @@ nano ./env_vars/.env_db_mysql
       - GF_SECURITY_ALLOW_EMBEDDING=true
 ```
 
-#### Plugin configure - add datasouce URL API
+#### Plugin Zabbix configure - add datasouce URL API
 
 ```bash
 http://MYIPHOST:8880/api_jsonrpc.php
