@@ -13,22 +13,22 @@ Antes de começar, você vai precisar ter instalado
 
 ### 🎲 ( Rodando Compose )
 
-Criando diretorios
+#### Criando diretorios
 ```bash
 mkdir -p /opt/app/
 ```
 
-Acessando diretorio
+#### Acessando diretorio
 ```bash
 cd /opt/app
 ```
 
- Fazendo Git do projeto
+#### Fazendo Git do projeto
 ```bash
 git clone https://github.com/Math-benites/zabbix-server-compose-7.2.git . 
 ```
 
-Rodando compose
+#### Rodando compose
 ```bash
 docker compose up -d
 ```
@@ -60,7 +60,7 @@ nano ./env_vars/.env_db_mysql
 
 ### 🔧 Grafana  
 
-# url public - compartilhar dentro do zabbix url
+#### url public - compartilhar dentro do zabbix url
 
 ```bash
    environment:
@@ -68,7 +68,7 @@ nano ./env_vars/.env_db_mysql
       - GF_SECURITY_ALLOW_EMBEDDING=true
 ```
 
-# Plugin configure - add datasouce URL API
+#### Plugin configure - add datasouce URL API
 
 ```bash
 http://MYIPHOST:8880/api_jsonrpc.php
